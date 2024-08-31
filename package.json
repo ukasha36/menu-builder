@@ -1,0 +1,45 @@
+{
+  "name": "react-dnd-menu-builder",
+  "version": "0.0.8",
+  "description": "React DnD Menu Builder",
+  "scripts": {
+   "rollup": "rollup -c --bundleConfigAsCjs",
+  "dev": "rollup -c -w --bundleConfigAsCjs",
+  "start": "rollup -c --bundleConfigAsCjs",
+   "serve": "http-server dist -p 3000"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-react-display-name": "^7.24.7",
+    "@babel/plugin-transform-react-jsx": "^7.25.2",
+    "@babel/plugin-transform-react-jsx-development": "^7.24.7",
+    "@babel/plugin-transform-react-pure-annotations": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.7",
+    "chokidar": "^3.6.0",
+    "http-server": "^14.1.1",
+    "postcss": "^8.4.29",
+    "rollup": "^4.19.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@dnd-kit/core": "6.1.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "classnames": "^2.5.1"
+  }
+}
