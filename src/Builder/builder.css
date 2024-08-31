@@ -1,6 +1,6 @@
 /* Wrapper styles */
 .Wrapper {
-  list-style: none;
+  list-style: circle;
   box-sizing: border-box;
   margin-bottom: -1px;
   -webkit-font-smoothing: subpixel-antialiased;
